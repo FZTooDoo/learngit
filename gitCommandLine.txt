@@ -50,3 +50,9 @@ git checkout -- learnGit.txt
 把learnGit.txt文件在工作区的修改全部撤销
 一种是修改后没有放到暂存区，即没有add，可以撤销
 一种是修改后提交到了暂存区，然后又修改了，可以撤销第二次的修改，不可撤销第一次修改
+
+git reset HEAD learnGit.txt
+将提交到暂存区的内容撤销，即add之后的内容
+
+
+

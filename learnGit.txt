@@ -14,3 +14,5 @@ Git tracks changes of files.
 查看具体修改了什么内容
 
 做了第一次修改
+
+add之后放到暂存区，还能撤销吗
