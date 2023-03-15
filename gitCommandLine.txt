@@ -32,3 +32,16 @@ git log
 git log --pretty=oneline
 看得简洁点
 
+git reset hard HEAD^
+回退到上一个版本
+git reset hard HEAD~100
+回退到往上100个版本
+
+cat xxx文件
+查看xxx文件的内容是什么
+
+git reset --hard 46fb13fe0
+回退到制定版本，或者找回回退之前的版本（只要当前git窗口没有关闭）
+
+git reflog
+记录每一次命令，查看命令历史，可以借此知道每次提交或者回退的版本号
