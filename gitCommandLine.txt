@@ -32,7 +32,7 @@ git log
 git log --pretty=oneline
 看得简洁点
 
-git reset hard HEAD^
+git reset --hard HEAD^
 回退到上一个版本
 git reset hard HEAD~100
 回退到往上100个版本
@@ -54,5 +54,13 @@ git checkout -- learnGit.txt
 git reset HEAD learnGit.txt
 将提交到暂存区的内容撤销，即add之后的内容
 
+rm newFile.txt
+git rm newFile.txt
+git commit -m "xxx"
+删除newFile.txt文件
+
+rm newFile.txt或者直接在文件夹里面物理删除
+git checkout -- newFile.txt
+从版本库中恢复文件
 
 
