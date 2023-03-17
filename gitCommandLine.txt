@@ -64,3 +64,6 @@ git checkout -- newFile.txt
 从版本库中恢复文件
 
 
+添加ssh key
+	创建ssh key
+	ssh-keygen -t rsa -C "toodoo687@gmail.com"
